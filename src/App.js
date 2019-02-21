@@ -1,8 +1,9 @@
 import React, { Component } from "react";
+import HeaderNav from "./Containers/HeaderNav/HeaderNav";
 
 class App extends Component {
   render() {
-    return <div>Hello World</div>;
+    return <HeaderNav />;
   }
 }
 
